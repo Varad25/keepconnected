@@ -1,0 +1,24 @@
+{
+  "name": "betterChartsService",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "feed-read": "0.0.1",
+    "immutable": "^3.7.6",
+    "mongo": "^0.1.0",
+    "mongodb": "^2.1.14",
+    "mongoose": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5"
+  }
+}
